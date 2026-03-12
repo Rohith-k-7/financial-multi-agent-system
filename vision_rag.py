@@ -6,7 +6,7 @@ from PIL import Image
 from google import genai
 
 # 🔑 API KEY
-client = genai.Client(api_key="AIzaSyDWSI2SBmXNd-_2N62BQF-ZfA8MbazvlxY")
+client = genai.Client(api_key="YOUR API KEY")
 
 DB_DIR = r"C:\Users\Pc\Downloads\rohith.freeee7\trading chart rag\vector_db"
 
@@ -52,4 +52,5 @@ if __name__ == "__main__":
         "Explain this trading chart"
     )
     print("\n===== AI Explanation =====\n")
+
     print(answer)
